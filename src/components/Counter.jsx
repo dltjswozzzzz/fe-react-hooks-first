@@ -19,6 +19,7 @@ const Counter = () => {
       <p>{count}</p>
       <button onClick={handleDecrease}>-1</button>
       <button onClick={handleIncrease}>+1</button>
+      {/* 각 버튼에 onClick 이벤트 핸들러를 부여해서, 버튼이 클릭되었을 때 각 함수가 실행되도록 함 */}
     </div>
   );
 };
